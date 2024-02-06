@@ -7,6 +7,7 @@ import { ConnectComponent } from './connect/connect.component';
 import { HeaderComponent } from './header/header.component';
 import { QueryComponent } from './query/query.component';
 import { QueryparameterComponent } from './queryparameter/queryparameter.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { QueryparameterComponent } from './queryparameter/queryparameter.compone
     ConnectComponent,
     HeaderComponent,
     QueryComponent,
-    QueryparameterComponent
+    QueryparameterComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
