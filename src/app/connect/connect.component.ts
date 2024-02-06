@@ -5,6 +5,19 @@ import { Component } from '@angular/core';
   templateUrl: './connect.component.html',
   styleUrl: './connect.component.css'
 })
-export class ConnectComponent {
+export class ConnectComponent 
+{
+  connected: boolean = false;
+  selectedOption: string = "";
+  selectOption: string = "";
+  options: any;
+
+  connect() {
+    // Add your connection logic here
+    this.connected = true;
+  }
 
 }
+
+
+
